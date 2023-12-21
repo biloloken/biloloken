@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="https://avatars.mds.yandex.net/get-entity_search/2115007/575425055/S122x122Fit_2x" type="icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    top: 50px;
+    left: 400px;
+    position: absolute;
+    display: flex;
+}
+fieldset{
+    border: 1px solid rgb(219, 219, 219);
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+}
+.homePage img{
+    position: relative;
+    left: -70px;
+    height: 581px;
+}
+.ins{
+    left: -50px;
+    position: relative;
+    height: 570px;
+}
+.ins input{
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(247, 248, 249);
+    margin: 3px;
+    outline: none;
+    margin-left: 20px;
+    width: 300px;
+    height: 25px;
+}
+
+.ins button{
+    color: white;
+    border: none;
+    background-color: #68e1ff;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 308px;
+    height: 30px;
+    border-radius: 5px;
+}
+.before{
+    text-align: center
+    ;
+}
+.app{
+    color: #385185;
+    margin-left: 80px;
+}
+.app-2{
+    margin-left:110px;
+    text-decoration: none;
+    color: #003768;
+}
+.app-3{
+    text-align: center;
+}
+.download_app{
+    margin-left: 30px;
+    width:150px ;
+}
+.download_app-1{
+    width: 125px;
+}
+.reg{
+    color: blue;
+    text-decoration: none;
+}
+
+</style>
+<body>
+<div class="container">
+    <div class="homePage">
+        <img src="./img/photo.PNG" alt="" width="400px">
+    </div>
+                
+    <div class="ins">
+        <fieldset>
+            <h1>Instagram</h1>
+            <input type="mail" placeholder="Телефон или никнейм "><br>
+            <input type="password" placeholder="ВВедите пароль"><br>
+            <button>Войти </button>
+            <p class="before">Или</p>
+            <a href="#" class="app"><i class='bx bxl-facebook-square'>Войти через Facebook</i></a><br><br>
+            <a href="#" class="app-2"> Забыли пароль ?</a> <br><br>
+        </fieldset>
+        <fieldset>
+            <p>У вас ещё нет аккаунта? <a href="#" class="reg">Зарегистрироваться</a></p>
+        </fieldset>
+    </div>
+</div>
+</body>
+</html>
